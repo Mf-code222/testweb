@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #2196F3;
+  --text-color: #333;
+  --background-color: #f8f8f8;
+}
+
+.hero {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Additional variables for other elements */
