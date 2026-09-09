@@ -1,4 +1,10 @@
-// Initialize the page
 document.addEventListener('DOMContentLoaded', () => {
-    // Main initialization logic and initial settings
+    initScrollAnimations();
+
+    const productCards = document.querySelectorAll('.product-item');
+    productCards.forEach(card => {
+        card.addEventListener('click', function() {
+            alert(`You clicked ${this.getAttribute('data-product')}`);
+        });
+    });
 });
