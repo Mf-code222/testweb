@@ -4,6 +4,28 @@ body {
   min-height: 100vh;
 }
 
-.hero, .technology-section, .product-selection, .scroll-experience, .stats-section, .about-vision, footer {
+.hero {
+  background-color: #121212;
+  color: white;
   padding: 40px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.central-product {
+  margin-top: 20px;
+}
+
+.technology-section, .product-selection, .scroll-experience, .stats-section, .about-vision, footer {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  padding-bottom: 20px;
+  text-align: center;
 }
