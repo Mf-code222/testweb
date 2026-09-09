@@ -1,11 +1,10 @@
-import gsap from 'gsap';
+import { gsap } from 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js';
 
-// Scroll animation functions
 export function initScrollAnimations() {
-  gsap.to('.scroll-experience', {
-    scrollTrigger: '.scroll-experience',
-    y: -50,
-    duration: 1.5,
-    ease: 'power2.inOut'
-  });
+    gsap.to('.scroll-experience', {
+        scrollTrigger: '.scroll-experience',
+        y: -50,
+        duration: 1.5,
+        ease: 'power2.inOut'
+    });
 }
